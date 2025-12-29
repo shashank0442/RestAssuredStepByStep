@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2"
-          name="/Users/shashank/Documents/Automation Training/RestAssuredStepByStep/testng.xml">
+    <test verbose="2" name="apiTest">
         <classes>
             <class name="learn.APITests"/>
+            <class name="learn.PostDemo"/>
+            <class name="learn.TestAPIBody"/>
             <class name="learn.First"/>
+            <class name="learn.TestsExamples"/>
         </classes>
     </test>
 </suite>

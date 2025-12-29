@@ -10,12 +10,19 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'io.rest-assured:rest-assured:5.5.1'
+    testImplementation 'io.rest-assured:rest-assured:5.5.6'
     testImplementation 'org.testng:testng:7.11.0'
     implementation 'com.googlecode.json-simple:json-simple:1.1.1'
 
 }
 
+configurations.all {
+    resolutionStrategy {
+        force 'org.hamcrest:hamcrest:2.2'
+        force 'org.hamcrest:hamcrest-core:2.2'
+    }
+}
+
 test {
-    useJUnitPlatform()
+    useTestNG()
 }

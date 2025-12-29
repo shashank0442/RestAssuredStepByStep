@@ -5,3 +5,4 @@ gradle
 gradlew.bat
 settings.gradle
 gradlew
+/out/

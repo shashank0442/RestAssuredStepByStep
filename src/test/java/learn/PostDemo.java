@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class postDemo {
+public class PostDemo {
 
     // post api https://reqres.in/api/users
     @Test
